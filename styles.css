@@ -1,0 +1,63 @@
+:root {
+    --cream: fffeef;
+    --gradient: linear-gradient(135deg, hsl(221,83%, 68%), hsl(221,83%, 53%));
+    --big: 'Roboto', sans-serif;
+    --small: 'Poppins', sans-serif;
+}
+body{
+    background-color: var(--cream
+    ) ;
+}
+
+.pic_cont {
+max-width: 100%;
+height: 28vh;
+background-image: var(--gradient);
+}
+.pic {
+    width:11rem;
+    height: 11rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1rem 0rem 0rem 1rem;
+    background-image: url('doc2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.sec {
+    margin-top: 3rem;
+}
+
+.name {
+    display: block;
+    margin: -8rem 0 0rem 14rem;
+    font-family: var(--big);
+    font-weight: 600;
+    font-size:2rem ;
+}
+.ls {
+    margin-left:14rem ;
+    font-family: var(--small);
+    font-size: small;
+}
+
+input, label {
+    display: block;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin: 1rem auto 1rem auto;
+    width: 80vw;
+}
+
+label {
+    font-family: var(--big);
+    font-size: 1rem;
+}
+input {
+    font-family: var(--small);
+    font-size: 1rem;
+}
+
+
